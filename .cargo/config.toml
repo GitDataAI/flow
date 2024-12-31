@@ -1,0 +1,7 @@
+[alias]
+b = "zigbuild"
+br = "zigbuild --release"
+c = "check"
+t = "test"
+r = "run"
+rr = "run --release"

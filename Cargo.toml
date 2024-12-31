@@ -1,0 +1,27 @@
+[package]
+name = "flow"
+version = "0.1.0"
+edition = "2021"
+authors = [
+    "Taoshisheng <taoshisheng1@gitdata.ai>",
+    "ZhenYi <zhenyi@gitdata.ai>",
+]
+license = "MIT"
+repository = "https://github.com/gitdata-ai/flow"
+description = "A stream processing engine"
+keywords = ["flow", "flow-based", "pipeline"]
+readme = "README.md"
+documentation = "https://docs.gitdata.ai/flow"
+homepage = "https://gitdata.ai"
+
+[workspace]
+members = [
+    "cli"
+]
+
+[[bin]]
+path = "src/main.rs"
+name = "jzflow"
+
+
+[dependencies]
